@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Fizza Fitness</title>
+    <style>
+        body {
+            color: white;
+            margin: 0;
+            padding: 0;
+            background-image: url('img/7.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px 0;
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left {
+            position: absolute;
+            left: 60px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .left img {
+            width: 100px;
+            height: auto;
+        }
+
+        .left div {
+            font-size: 26px;
+            font-weight: bold;
+            line-height: 19px;
+        }
+
+        .navbar {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            font-size: 20px;
+            margin: 0 15px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            font-size: 25px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: black;
+        }
+
+        .mid {
+            display: block;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 25px;
+            color: white;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 13px;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgba(230, 223, 223, 0.205);
+        }
+
+        .container {
+            border: 2px solid white;
+            margin: 106px 90px;
+            padding: 75px;
+            width: 50%;
+            border-radius: 28px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container p {
+            font-size: 18px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/8.webp" alt="Logo">
+            <div>Fizza Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="calculator.html">Fitness Calculator</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>About Us</h1>
+        <p>
+            Welcome to Fizza Fitness, where we believe in promoting a healthy lifestyle for all. Our gym, located in the
+            heart of Islamabad, offers a state-of-the-art facility with modern equipment and certified trainers to guide
+            you on your fitness journey.
+        </p>
+        <p>
+            At Fizza Fitness, we create personalized workout plans tailored to your goals and fitness level. Whether
+            you're a beginner or an experienced athlete, you'll find the support and motivation you need to succeed.
+        </p>
+        <p>
+            Join our fitness community today and take the first step towards a healthier, stronger, and more confident
+            you!
+        </p>
+    </div>
+</body>
+
+</html>
