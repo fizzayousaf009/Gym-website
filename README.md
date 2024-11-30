@@ -1,0 +1,1 @@
+This gym website is built as part of my HTML and CSS practice on Day 7. It includes a landing page with sections like Home, Services, About Us, Contact Us (with a form). The website is designed to be simple, responsive, and user-friendly, showcasing the gym's offerings and providing easy navigation across different devices. All sections were created using only HTML and CSS.
